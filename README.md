@@ -13,6 +13,30 @@ Developers should feel familiar with the language and code from baremetal to clo
 
 Blaze is part of a complete language systems that also include [Ember](https://github.com/sckelemen/ember) and [Ash](https://github.com/sckelemen/ash). These three language share the same core syntax, but each are extended to support their target niche.
 
-### Core Syntax:
 
-### Comments
+
+
+
+## Actors
+
+### Lifecycle
+- PreStart()
+- PreRestart()
+- PostRestart()
+- PostStop()
+
+### Syntax 
+```pony 
+actor Main {
+  
+}
+
+```
+
+
+## CRDT
+
+
+## P2P
+
+## QUIC
