@@ -129,3 +129,10 @@ actor Main {
 ## P2P
 
 ## QUIC
+
+## Reference
+### Destructuring 
+ - [Destructuring Assignement (JS)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+### Correctness
+ - [Proving the Correctness of Multiprocess Programs (Lamport 77)](http://www.cis.umassd.edu/~hxu/courses/cis481/references/Lamport-1977.pdf)
