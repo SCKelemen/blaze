@@ -50,7 +50,42 @@ const five = 6 // five == 5
 int five = 5 // explicitly typed
 ```
 
+### Arithmetic Operators
+```coffee
+let addition       = a + b
+let subtraction    = a - b
+let division       = a / b
+let multiplication = a * b
+let modulo         = a % b
 
+let exponent       = a ** b
+let negation       = -a 
+let identity       = +a
+```
+
+### Logical
+```coffee
+let and = expressionA && expressionB
+let or  = expressionA || expressionB
+let not = !expression
+```
+
+### Bitwise Operators
+```coffee
+let and = a & b
+let or  = a | b
+let xor = a ^ b
+let not = ~a     // bitwise complement
+
+let lshift = a << b
+let rshift = a >> b
+```
+
+### Comparison
+```swift
+let equality = a == b
+let notequal = a != b
+```
 
 ```pony 
 actor Main {
